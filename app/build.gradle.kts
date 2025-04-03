@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.serialization)
 }
 
 android {
@@ -40,9 +41,14 @@ android {
 }
 
 dependencies {
+    //koin
     implementation(libs.bundles.koin)
+    //library KMP
     implementation(libs.toDo)
-    implementation("androidx.navigation:navigation-compose:2.8.9")
+
+    //navigation
+    implementation(libs.compose.navigation)
+    implementation(libs.kotlin.serialization)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

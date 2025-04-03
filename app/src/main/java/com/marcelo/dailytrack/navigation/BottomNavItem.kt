@@ -1,4 +1,4 @@
-package com.marcelo.dailytrack
+package com.marcelo.dailytrack.navigation
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
