@@ -1,4 +1,4 @@
-package com.marcelo.dailytrack
+package com.marcelo.dailytrack.core
 
 import TodoListApp
 import android.os.Bundle

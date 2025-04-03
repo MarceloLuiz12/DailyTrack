@@ -1,4 +1,4 @@
-package com.marcelo.dailytrack
+package com.marcelo.dailytrack.core
 
 import android.app.Application
 import com.marcelo.todokit.di.dataLocalModule

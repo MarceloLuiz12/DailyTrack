@@ -12,7 +12,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.*
 import com.marcelo.dailytrack.BottomNavItem
-import com.marcelo.dailytrack.MainViewModel
+import com.marcelo.dailytrack.core.MainViewModel
 import com.marcelo.todokit.domain.enums.TaskStatusEnum
 import com.marcelo.todokit.domain.model.TaskModel
 import org.koin.androidx.compose.koinViewModel
